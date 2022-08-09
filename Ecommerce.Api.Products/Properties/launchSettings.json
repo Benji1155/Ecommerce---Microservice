@@ -1,0 +1,40 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:13687",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "Ecommerce.Api.Products": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/product",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:13687",
+      "dotnetRunMessages": true
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/product",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchBrowser": true,
+      "launchUrl": "api/product",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:13687"
+      },
+      "distributionName": ""
+    }
+  }
+}
